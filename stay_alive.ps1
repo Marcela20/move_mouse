@@ -1,6 +1,6 @@
 # usage: ./stay_alive.ps1 <time_of_execution> <freuency_of_actions>
 
-param($minutes = 120, $freq_sec = 5)
+param($minutes = 120, $freq_sec = 59)
 Add-Type -AssemblyName System.Windows.Forms
 $myshell = New-Object -com "Wscript.Shell"
 $direction = 10
